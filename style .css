@@ -1,0 +1,45 @@
+body
+{
+     font-family: 'Georgia',Serif;
+     margin:20px;
+}
+
+.container
+{
+    border: 2px solid black;
+    display: flex;
+    padding: 40px;
+    margin: 20px;
+    justify-content : center;
+    align-items: center;
+    gap: 40px;
+}
+.card{
+    background-color: white;
+    width:220px;
+    text-align: center;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    border:2px solid #007bff;
+}
+.circle{
+    background-color: #007bff;
+    color:white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 70px;
+    height: 70 px;
+    line-height: 70px;
+    margin: 0 auto 15px;
+
+}
+h3
+{
+    margin-bottom: 5px;
+}
+p
+{
+    margin: 5px 0;
+    font-size: 14px;
+}
